@@ -1,0 +1,26 @@
+schema_version: 1
+name: greeting
+description: Say hello in different languages. Supports 10 languages.
+keywords: [hello, hi, greet, greeting, bonjour, hola, ciao]
+platforms: []
+secrets: []
+packages: []
+parameters:
+  - name: name
+    param_type: string
+    required: false
+    description: Name of the person to greet
+  - name: language
+    param_type: string
+    required: false
+    description: Language to greet in
+    enum_values: [english, spanish, french, japanese, italian, german, portuguese, korean, hindi, swahili]
+authentication: null
+display_name: Multilingual Greeting
+author:
+  github: alexberardi
+version: "1.0.0"
+min_jarvis_version: "0.9.0"
+license: MIT
+categories: [utilities, entertainment]
+homepage: ""
